@@ -20,7 +20,6 @@ main
     height: 550px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    display: flex;
 }
 
 .image
@@ -32,10 +31,11 @@ main
 
 img
 {
-    width: 350px;
+    max-width: 350px;
     height: 550px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    
 }
 
 .text
@@ -121,21 +121,41 @@ P
 }
 
 @media only screen and (max-width: 700px) {
+    img
+    {
+        height: 400px;
+        width: 100em;
+        margin-top: -50px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    h1
+    {
+        font-size: 25px;
+    }
     .card
     {
         width: 350px;
         height: 700px;
-        background-color: aqua;
     }
 
     .image
     {
-        width: 350px;
-        height: 200;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 100%;
+        height: 225px;
+        overflow: hidden;
     }
 
-    .product-desktop
+    .text
     {
-        
+        width: 300px;
+        height: 425px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
     }
   }
