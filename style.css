@@ -135,10 +135,22 @@ P
     {
         font-size: 25px;
     }
+    
+    
+    .bt1
+    {
+        margin-top: 20px;
+    }
+
+    .price
+    {
+        margin-top: 20px;
+    }
+
     .card
     {
         width: 350px;
-        height: 700px;
+        height: 660px;
     }
 
     .image
