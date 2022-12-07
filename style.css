@@ -153,7 +153,11 @@ P
         font-size: 25px;
     }
     
-    
+    i
+    {
+        top: 2%;
+    }
+
     .bt1
     {
         margin-top: 20px;
