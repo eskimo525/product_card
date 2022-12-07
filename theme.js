@@ -26,9 +26,8 @@ zmien.addEventListener('click', function(){
         overprice.style.color = 'rgb(238, 238, 238)';
         h4.style.color = 'rgb(238, 238, 238)';
         p.style.color = 'rgb(238, 238, 238)';
-        body.style.transition = '1s';
         button.style.background = '#00ADB5';
-  
+        body.style.transition = '1s';
     }
     else
     {
@@ -40,8 +39,5 @@ zmien.addEventListener('click', function(){
         p.style.color = 'hsl(228, 12%, 48%)';
         button.style.background = 'hsl(158, 36%, 37%)';
         body.style.transition = '1s';
-        
-
-    }
-    
+    } 
 }) 
