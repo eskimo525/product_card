@@ -1,6 +1,6 @@
 const zmien = document.getElementById('toggleSun');
-const card = document.getElementById('zmianaKoloru');
-const overprice = document.getElementById('jeb');
+const card = document.getElementById('colorchanger');
+const overprice = document.getElementById('cost');
 const button = document.getElementById('button1')
 
 const h4 = document.querySelector('h4'); 
